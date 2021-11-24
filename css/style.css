@@ -1,0 +1,63 @@
+body {
+  background-image: url(../images/bg4.jpg);
+  word-spacing: 0.5cm;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.form-page {
+  background-color: wheat;
+  height: 75vh;
+  width: 50%;
+  margin-left: 45px;
+  padding-left: 2px;
+  text-align: center;
+  margin-top: 150px;
+  border: 4px 2px solid gold;
+  border-radius: 7px;
+}
+.form-page h3 {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.form-page input {
+  width: 60%;
+  border-radius: 7px;
+  text-align: center;
+  border: none;
+  outline: none;
+  height: 4.5vh;
+  margin-bottom: 10px;
+  font-size: large;
+}
+.sys {
+  background-image: url(../images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.logo img {
+  height: 25vh;
+  border-radius: 50%;
+}
+#btn {
+  width: 15%;
+  height: 5vh;
+  border-radius: 1cm;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn:hover {
+  width: 15%;
+  height: 5vh;
+  border-radius: 1cm;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
